@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name="electrum-dash-server",
+    name="electrum-park-server",
     version="1.0",
-    scripts=['run_electrum_dash_server','electrum-dash-server'],
+    scripts=['run_electrum_park_server','electrum-park-server'],
     install_requires=['plyvel','jsonrpclib', 'irc >= 11, <=14.0', 'x11_hash'],
     package_dir={
         'electrumserver':'src'
