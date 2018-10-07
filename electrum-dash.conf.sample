@@ -1,6 +1,6 @@
 [server]
 # username for running the daemon
-username =
+username = park
 # hostname. set it to a FQDN in order to be reached from outside
 host = localhost
 # ports
@@ -25,7 +25,7 @@ donation_address =
 
 [leveldb]
 # path to your database
-path =
+path = /var/electrum-park-server
 # for each address, history will be pruned if it is longer than this limit
 pruning_limit = 100
 
@@ -39,5 +39,5 @@ pruning_limit = 100
 dashd_host = localhost
 dashd_port = 8332
 # user and password from dash.conf
-dashd_user =
-dashd_password =
+dashd_user = mushroom
+dashd_password = mushroom18970
