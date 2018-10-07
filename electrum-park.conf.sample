@@ -25,7 +25,7 @@ donation_address =
 
 [leveldb]
 # path to your database
-path =
+path = /var/electrum-park-server
 # for each address, history will be pruned if it is longer than this limit
 pruning_limit = 100
 
@@ -39,5 +39,5 @@ pruning_limit = 100
 parkingd_host = localhost
 parkingd_port = 47777
 # user and password from parking.conf
-parkingd_user =
-parkingd_password =
+parkingd_user = mushroom
+parkingd_password = mushroom18970
